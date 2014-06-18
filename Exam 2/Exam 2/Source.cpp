@@ -10,7 +10,6 @@
 #include <vector>
 #include <fstream>
 #include "Runner.h"
-#include "Registration.h"//I added another class like how your solution to the phone directory had. I wasnt sure how to make it work with just the one Runner class
 using namespace std;
 
 int main()
