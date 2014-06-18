@@ -1,0 +1,74 @@
+﻿Build started 6/17/2014 5:27:43 PM.
+     1>Project "C:\Users\Ian\Documents\Pirate\2014\CS172\Exam 2\Exam 2\Exam 2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Registration.cpp Runner.cpp Source.cpp
+         Source.cpp
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.h(13): error C2065: 'Registration' : undeclared identifier
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.h(13): error C2923: 'std::vector' : 'Registration' is not a valid template type argument for parameter '_Ty'
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(29): error C2065: 'participants' : undeclared identifier
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(29): error C2228: left of '.size' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(29): error C2143: syntax error : missing ';' before ')'
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(31): error C2065: 'pace' : undeclared identifier
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(46): error C3867: 'Runner::get_lastname': function call missing argument list; use '&Runner::get_lastname' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(46): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(50): error C2065: 'pace' : undeclared identifier
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(64): error C3867: 'Runner::get_lastname': function call missing argument list; use '&Runner::get_lastname' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(64): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(68): error C2065: 'pace' : undeclared identifier
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(83): error C3867: 'Runner::get_lastname': function call missing argument list; use '&Runner::get_lastname' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(83): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(87): error C2065: 'pace' : undeclared identifier
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(102): error C3867: 'Runner::get_lastname': function call missing argument list; use '&Runner::get_lastname' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(102): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(106): error C2065: 'pace' : undeclared identifier
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(121): error C3867: 'Runner::get_lastname': function call missing argument list; use '&Runner::get_lastname' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(121): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(125): error C2065: 'pace' : undeclared identifier
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(140): error C3867: 'Runner::get_lastname': function call missing argument list; use '&Runner::get_lastname' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(140): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(144): error C2065: 'pace' : undeclared identifier
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(158): error C3867: 'Runner::get_lastname': function call missing argument list; use '&Runner::get_lastname' to create a pointer to member
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\source.cpp(158): error C3867: 'Runner::get_pace': function call missing argument list; use '&Runner::get_pace' to create a pointer to member
+         Runner.cpp
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.h(13): error C2065: 'Registration' : undeclared identifier
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.h(13): error C2923: 'std::vector' : 'Registration' is not a valid template type argument for parameter '_Ty'
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(10): error C2512: 'std::vector' : no appropriate default constructor available
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(18): error C2663: 'std::vector<_Ty,_Alloc>::push_back' : 2 overloads have no legal conversion for 'this' pointer
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(42): error C2662: '_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) throw() const' : cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+                 Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+                 Conversion requires a second user-defined-conversion operator or constructor
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(44): error C2678: binary '[' : no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\vector(1196): could be '_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\vector(1180): or       '_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const'
+                 while trying to match the argument list '(std::vector, int)'
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(44): error C2228: left of '.get_lastname' must have class/struct/union
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(51): error C2678: binary '[' : no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\vector(1196): could be '_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\vector(1180): or       '_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const'
+                 while trying to match the argument list '(std::vector, int)'
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(51): error C2228: left of '.get_pace' must have class/struct/union
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(57): error C2662: '_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) throw() const' : cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+                 Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+                 Conversion requires a second user-defined-conversion operator or constructor
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(59): error C2678: binary '[' : no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\vector(1196): could be '_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\vector(1180): or       '_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const'
+                 while trying to match the argument list '(std::vector, int)'
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(59): error C2228: left of '.get_lastname' must have class/struct/union
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(59): error C2088: '[' : illegal for class
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(59): error C2228: left of '.get_firstname' must have class/struct/union
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(66): error C2678: binary '[' : no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\vector(1196): could be '_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\vector(1180): or       '_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<!std::is_empty<_Alloc_types::_Alloc>::value,std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const'
+                 while trying to match the argument list '(std::vector, int)'
+     1>c:\users\ian\documents\pirate\2014\cs172\exam 2\exam 2\runner.cpp(66): error C2228: left of '.get_pace' must have class/struct/union
+         Generating Code...
+         Compiling...
+         Registration.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\Ian\Documents\Pirate\2014\CS172\Exam 2\Exam 2\Exam 2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.50
