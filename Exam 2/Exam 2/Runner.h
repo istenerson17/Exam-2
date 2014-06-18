@@ -10,9 +10,10 @@ private:
 	string firstname;
 	string lastname;
 	int pace;
-	vector<Registration> participants;
+	int number;
 public:
-	Runner(string);
+	vector<Runner> participants;
+	Runner(string, int);
 
 	string get_firstname();
 	string get_lastname();
