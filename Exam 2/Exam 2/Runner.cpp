@@ -3,12 +3,12 @@
 #include <vector>
 #include <fstream>
 #include "Runner.h"
-#include "Registration.h"
 using namespace std;
 
-Runner::Runner(string filename)
+Runner::Runner(string filename, int i)
 {
 	ifstream runner(filename);
+	int number = i;
 	string line;
 	if (!runner.fail()) 
 	{
