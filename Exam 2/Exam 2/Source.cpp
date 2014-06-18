@@ -3,7 +3,8 @@
 //Exam 2
 //17 June 2014
 //I affirm that all code given below was written solely by me, Ian Stenerson, 
-//and that any help I received adhered to the rules stated for this exam.///////////////////////////
+//and that any help I received adhered to the rules stated for this exam.
+///////////////////////////
 #include <iostream>
 #include <string>
 #include <vector>
@@ -15,7 +16,7 @@ using namespace std;
 int main()
 {
 	string filename = "C:\\Users\\Ian\\CS172\\Registrants.txt";
-	Runner Bloom(filename);
+	vector<Runner> participants;
 	ofstream fout;
 	ifstream fin;
 
@@ -25,12 +26,17 @@ int main()
 		cout << "Can't open file for reading" << endl;
 		return 0;
 	}
-
-	for (int i = 0; i < participants.size(), i++)//For some reason my participants vector isnt being recognized here, but it is below.
+	
+	for (int i = 0; i < participants.size(); i++)
 	{
-		if ((pace > 0) && (pace <= 360))//Also for pace, it works below. Shouldnt it be here because of my #includes above?
-		{
+		Runner Bloom(filename, i);
+	}
 
+	for (int i = 0; i < participants.size(); i++)
+	{
+		double pace = Bloom.get_pace[i];
+		if ((pace > 0) && (pace <= 360))
+		{
 			string white = "c:\\users\\Ian\\Desktop\\White.txt";
 			ofstream foutW;
 			ifstream finW;
